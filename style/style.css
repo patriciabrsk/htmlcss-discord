@@ -21,35 +21,34 @@ header {
     background-color: #255ee8;
 }
 
-nav.flex {
-    width: 70%;
-    margin: 0 auto;
-    line-height: 80px;
-    max-width: 1180px;
-}
-
-.flex {
+nav.flex-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
+    line-height: 80px;
+    /* width: 70%;
+    max-width: 1180px; */
 }
 
 nav img {
     vertical-align: middle;
 }
 
-nav a {
+button a {
     text-decoration: none;
-    color: #fff;
-    font-size: 12px;
+    color: black;
 }
 
-div a {
+.main-nav-wrapper a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
     padding: 15px;
 }
 
-nav.flex > .button {
-    font-size: 12px;
+nav.flex-container .button {
+    font-size: 14px;
     height: 30px;
     width: 65px;
 }
@@ -65,47 +64,63 @@ nav.flex > .button {
     background-color: white; 
 }
 
-#jumbo-text > .btn-white {
-    height: 30px;
-    width: 75px;
-}
-
 .btn-black {
     background-color: #23272a;
     color: white;
 }
 
-div.jumbotron > img { 
+#jumbo-text > .btn-white {
+    height: 30px;
+    width: 75px;
+}
+
+/* .absolute {
+    position: absolute;
+} */
+
+.jumbotron > img { 
     max-width: 100%;
     max-height: 100%;;
     object-fit: cover;
     display: block;
 }
 
-.jumbo-text {
-    position: relative;
-    color: #fff;
-    text-align: center;
+div.jumbo-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-div.container {
+div.jumbo-txt {
+    width: 70%;
+}
+
+.section-wrapper {
+
+}
+
+img.study-group {
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1180px;
+    width: 70%;
+}
+
+section.flex-container {
+    padding-top: 120px;
+}
+
+div.text {
     width: 400px;
-    left: 50%;
-    text-align: center;
-} 
-
-.container {
-    text-align: center;
-    position: relative;
 }
-
-.absolute {
-    position: absolute;
-}
-
-.section-one {
+.section-title {
+    font-size: 40px;
 
 }
-
 
 

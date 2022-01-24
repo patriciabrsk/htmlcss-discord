@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <nav class="flex"> <!-- main-nav -->
+        <nav class="flex-container"> <!-- main-nav -->
             <a class="logo" href="index.html">
                 <img src="img/logo.svg" alt="Discord logo">
             </a>
@@ -26,54 +26,58 @@
                 <a href="#">Nitro</a>
                 <a href="#">Sicurezza</a>
                 <a href="#">Assistenza</a>
-                
             </div>
 
-            <button class="button btn-small btn-white">Accedi</button>
+            <button class="button btn-small btn-white">
+                <a href="">Accedi</a>
+            </button>
         </nav>
     </header>
 
     <main>
         <!-- Jumbotron section -->
-        <div class="jumbotron">
-            <img src="img/jumbo.png" alt="Jumbotron">
-        </div>
+        <section class="jumbotron">
+            <img class="jumbo-image" src="img/jumbo.png" alt="Jumbotron">
 
-        <!-- Text content inside jumbotron -->
-        <section class="jumbo-text">
-            <div class="container absolute">
+            <!-- Text content inside jumbotron
+            <div class="jumbo-text">
                 <h1 class="title">Il tuo posto per parlare</h1>
                 <p>
                     Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole trascorrere il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
                 </p>
-
                 <div class="jumbo-btn-group">
                     <button class="button btn-white">&#8595; Scarica per Mac</button>
                     <button class="button btn-black">Apri Discord nel tuo browser</button>
                 </div>
             </div>
+        </section> -->
 
-            <!-- Four main sections -->
-            <section class="container section-one">
-                <div class="absolute">
-                    <img src="img/item1.svg" alt="Discord study-group channel layout">
-                </div>
-            </section>
-            <section class="container section-grey">
-                <div class="absolute">
+        <!-- Four main sections -->
+        <section class="flex-container">
+            <img class="study-group" src="img/item1.svg" alt="Discord study-group channel layout">
+            <div class="text">
+                <h1 class="section-title">Un luogo a invito con tutto lo spazio necessario per parlare</h1>
+                <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
+            </div>
+        </section>
 
-                </div>
-            </section>
-            <section class="container">
-                <div class="absolute">
+        <section class="flex-container section-grey">
+            <div class="">
+                <h1 class="section-title"></h1>
+            </div>
+        </section>
+        
+        <section class="flex-container">
+            <div class="">
+                <h1 class="section-title"></h1>
+            </div>
+        </section>
 
-                </div>
-            </section>
-            <section class="container section-grey">
-                <div class="absolute">
-
-                </div>
-            </section>
+        <section class="flex-container section-grey">
+            <div class="">
+                <h1 class="section-title"></h1>
+            </div>
+        </section>
     </main>
 
     <footer>
