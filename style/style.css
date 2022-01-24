@@ -15,7 +15,7 @@ body {
     font-family: 'Whitney-Semibold', sans-serif;
 }
 
-header.container {
+header {
     width: 100%;
     height: 80px;
     background-color: #255ee8;
@@ -47,7 +47,7 @@ div a {
     padding: 15px;
 }
 
-div.button {
+nav.button {
     font-size: 12px;
 }
 
@@ -60,14 +60,28 @@ div.button {
     vertical-align: middle;
 }
 
-div.jumbotron {
-    width: auto;
-}
+/* div.jumbotron {
+    height: 80%;
+    width: 100vw;
+    max-height: 80%;
+} */
 
-div.jumbotron > img {
-    width: auto;
-    height: auto;
+div.jumbotron > img { 
     max-width: 100%;
     max-height: 100%;;
-    
+    object-fit: cover;
+}
+
+.jumbo-text {
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+div.container {
+    position: absolute;
+    width: 400px;
+   
+    left: 50%;
+    text-align: center;
 }
